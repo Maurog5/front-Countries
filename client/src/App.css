@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+.container {
+  width: 100%;
+  padding: px 15px;
+  margin: auto !important;
+}
+
+body {
+  background: hsl(207, 26%, 17%);
+}
+
+.header {
+    border-radius: 10px;
+  width: 1140;
+  height: 50px;
+  line-height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:#2c6b74;
+  z-index: 11;
+}
+
+.header h5 {
+    color: #baf456;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.header h3 {
+  color: #baf456;
+display: flex;
+align-items: center;
+font-size: 1.2rem;
+}
+
+.country__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.country__card {
+  width: 250px;
+
+  border-radius: 5px;
+  background: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.country__img img {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.all__country__wrapper {
+  margin-top: 100px;
+}
+
+.country__data {
+  padding: 20px;
+}
+.country__data h1 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.country__data h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.country__data h6 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  opacity: 80%;
+}
+
+.country__bottom h4 {
+  color: #040404;
+  text-align: center;
+  margin-top: 15px;
+}
+
+input {
+  padding: 10px 25px;
+  color: #000000;
+  border-radius: 5px;
+  background: #9cca4d;
+  border: none;
+  outline: none;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.country__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+select {
+  padding: 10px 25px;
+  background: #9cca4d;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.country__info__wrapper {
+  margin-top: 120px;
+}
+
+.country__info__container {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.country__info-img,
+.country__info {
+  width: 50%;
+}
+
+button {
+  padding: 10px 25px;
+  color: #fff;
+  background: hsl(209, 23%, 22%);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+
+.pagination button.active {
+  background-color: #9cca4d;
+  color: white;
+}
+.Activity button{
+  padding: auto;
+  color: #000000;
+  display: flex;
+  justify-content: flex-end;
+  background-color:#9cca4d;
+}
+.AGREGAR-ACTIVITY{
+  padding: 13%;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://i.gifer.com/MCn2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.detalles{
+
+  padding: 15%;
+  background-image: url("https://media2.giphy.com/media/3o6ozuXNqrDbTXf7dC/giphy.gif");
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+.title  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* para ajustar la altura según tus necesidades */
+  font-size: 2rem; /* puedes ajustar el tamaño de fuente según tus necesidades */
+  text-align: center;
+  text-decoration: underline;
+}
