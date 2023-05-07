@@ -5,8 +5,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from "react-router-dom"
-
-
+import axios from 'axios';
+//axios.defaults.baseURL='http://localhost:3001'
+axios.defaults.baseURL='https://servidor-countries-w1c5.onrender.com'
 ReactDOM.render(
   <React.StrictMode>
     <Router>

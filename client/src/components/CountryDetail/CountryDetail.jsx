@@ -11,10 +11,10 @@ const CountryDetail = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const countryRes = await axios.get(`http://localhost:3001/countries/${id}`);
+        const countryRes = await axios.get(`/countries/${id}`);
         setCountry(countryRes.data);
 
-        const activitiesRes = await axios.get(`http://localhost:3001/countries/${id}/activities`);
+        const activitiesRes = await axios.get(`/countries/${id}/activities`);
         setActivities(activitiesRes.data.map(activity => {
           return {
             name: activity.name,

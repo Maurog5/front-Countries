@@ -42,7 +42,7 @@ const AllCountries = () => {
 
   const getAllCountries = async () => {
     try {
-      const res = await axios.get("http://localhost:3001/countries");
+      const res = await axios.get("/countries");
       if (res.status !== 200) throw new Error("algo salio mal");
 
       const data = res.data;

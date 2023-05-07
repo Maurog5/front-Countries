@@ -18,7 +18,7 @@ const AddActivity = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3001/activities", activity);
+      const res = await axios.post("/activities", activity);
       alert(res.data); // muestra la actividad creada en la consola
     } catch (error) {
       ;
